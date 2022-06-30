@@ -8,12 +8,14 @@ function TodoForm({addTodo}){
         setValue('');
     }
 
-
     return (
         <form onSubmit={handleSubmit}>
-        <input type='text' className="input" value={value} placeholder="Add Todo..." onChange={e => setValue(e.target.value)}>
-
-        </input>
+        <input 
+            type='text' 
+            className="input" 
+            value={value} 
+            placeholder="Add Todo..." 
+            onChange={e => setValue(e.target.value)} >
     </form>
     );
 }
