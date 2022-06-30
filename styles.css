@@ -2,7 +2,7 @@
 
 body {
     margin: 0;
-    font-family: 'Arial';
+    font-family: 'Roboto Mono', monospace;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     background: #414141;
@@ -13,14 +13,14 @@ code {
 }
 
 .app {
-    background: #414141;
+    background: #05d9e8;
     padding: 30px;
     height: 100vh;  
 }   
 
 .todo-list {
-    background: #05d9e8;
-    border-radius: 10px;
+    background: #fff;
+    border-radius: 4px;
     padding: 5px;
     max-width: 400px;
 }
